@@ -23,7 +23,7 @@ public class WordCRUD implements ICRUD{
 		int level = s.nextInt();
 		String word = s.nextLine();
 		
-		System.out.println("뜻 입력: ");
+		System.out.print("뜻 입력: ");
 		String meaning = s.nextLine();
 
 		return new Word(0, level, word, meaning);
