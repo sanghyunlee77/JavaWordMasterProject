@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class WordManager {
 	Scanner s = new Scanner(System.in);
-	WordCRUD wordCRUD;
+	wordCRUD wordCRUD;
 	/*
 	*** 영단어 마스터 ***
 	*********************
@@ -53,6 +53,13 @@ public class WordManager {
 			}
 			else if(menu ==1) {
 				wordCRUD.listAll();
+			}
+			else if(menu ==5) {
+				// up date;
+				wordCRUD.updateItem();
+			}
+			else if(menu ==6) {
+				//wordCRUD.listAll();
 			}
 			}
 		}
