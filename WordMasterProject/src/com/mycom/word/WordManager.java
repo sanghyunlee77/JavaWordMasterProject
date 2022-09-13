@@ -62,7 +62,7 @@ public class WordManager {
 			}
 			else if(menu ==6) {
 				// delete 
-				wordCRUD6.deleteItem();
+				wordCRUD.deleteItem();
 			}
 			}
 		}
