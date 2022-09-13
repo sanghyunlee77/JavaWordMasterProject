@@ -44,12 +44,14 @@ public class WordManager {
 	}
 
 		public void start() {
+			
+			wordCRUD.loadFile();
 			while(true) {
 			int menu = selectMenu();
 			System.out.println(menu);
 			if(menu ==0) { System.out.print("\n프로그램 종료! 다음에 만나요~"); break;}
 			if(menu ==4) {
-				wordCRUD.addWord();
+				wordCRUD.addItem();
 			}
 			else if(menu ==1) {
 				wordCRUD.listAll();
@@ -59,7 +61,8 @@ public class WordManager {
 				wordCRUD.updateItem();
 			}
 			else if(menu ==6) {
-				//wordCRUD.listAll();
+				// delete 
+				wordCRUD6.deleteItem();
 			}
 			}
 		}
