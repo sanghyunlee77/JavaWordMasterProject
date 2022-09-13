@@ -77,7 +77,7 @@ public class WordCRUD implements ICRUD{
 		System.out.println("------------------------------------------");
 		for(int i =0; i < list.size(); i++) {
 			String word = list.get(i).getWord();
-			if(!word.contains(keyword)) continue;
+			if(!word.contains(keyword)) continue; 
 			System.out.print((j+1) + " ");
 			System.out.println(list.get(i).toString());
 			idlist.add(i);
@@ -122,7 +122,7 @@ public class WordCRUD implements ICRUD{
 		
 	public void loadFile() {
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("fname"));
+			BufferedReader br = new BufferedReader(new FileReader(fname));
 			String line;
 			int count = 0;
 			
