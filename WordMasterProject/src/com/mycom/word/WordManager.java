@@ -56,6 +56,12 @@ public class WordManager {
 			else if(menu ==1) {
 				wordCRUD.listAll();
 			}
+			else if(menu ==2) {
+				wordCRUD.selectLevel();
+			}
+			else if(menu ==3) {
+				wordCRUD.searchtWord();
+			}
 			else if(menu ==5) {
 				// up date;
 				wordCRUD.updateItem();
