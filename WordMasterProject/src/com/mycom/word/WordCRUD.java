@@ -155,7 +155,7 @@ public class WordCRUD implements ICRUD{
 			}
 			br.close();
 			System.out.println("==> " + count + "개 로딩 완료!!!");
-		} catch(IOException e) {
+		} catch(I0Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -166,7 +166,7 @@ public class WordCRUD implements ICRUD{
 				pr.write(one.toFileString() + "\n");
 			}
 			pr.close();
-			System.out.println("==> 데이터 저장 완료 !!!");
+			System.out.println("==> 데이터 저장 완료 !!! \n");
 		} catch (IOException e) {
 			
 			e.printStackTrace();
@@ -181,8 +181,9 @@ public class WordCRUD implements ICRUD{
 	}
 	public void searchtWord() {
 		// TODO Auto-generated method stub
-		System.out.print("=> 원하는 단어는 ? ");
+		System.out.print("=> 원하는 단어는? ");
 		String keyword = s.next();
+		listAll(keyword);
 		
 	}
 
