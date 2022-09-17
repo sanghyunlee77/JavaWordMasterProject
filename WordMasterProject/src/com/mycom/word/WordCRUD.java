@@ -150,7 +150,7 @@ public class WordCRUD implements ICRUD{
 				int level = Integer.parseInt(data[0]);
 				String word = data[1];
 				String meaning = data[2];
-				list.add(new Word(0, level, word, meaning));
+				list.add(new Word(level, word, meaning));
 				count ++;
 			}
 			br.close();
