@@ -1,4 +1,30 @@
 1|apple|사과
-2|banana|바나나
-1|ploe|기둥
-1| apple|사과
+3|sophisticated|세련된, 정교한, 복잡한
+3|sophistication|세련, 정교함
+2|consecutive|연속적인, 연이은
+2|consecutively|연속적으로
+1|quality|질, 품질
+1|completely|완전히
+1|complete|완료하다
+1|completion|완료, 완성
+2|deliberation|토의, 숙고, 신중함
+2|formerly|이전에, 예전에
+2|conveniently|편리하게
+2|convenient|편리한
+1|increase|증가하다, 증가, 인상
+1|decrease|줄다, 감소하다, 감소, 하락
+1|consistency|일관성, 한결같음
+1|inconsistency|불일치
+2|enhance|(가치를)높이다, 향상시키다
+1|establish|설립하다, 수립하다
+2|estimate|추정하다 / 추정치
+2|renovate|개조하다, 수리하다
+2|renovation|수리, 수선, 개조
+2|arise|생기다, 발생하다
+1|recommend|추천하다
+1|recommendation|추천
+3|collateral|담보물, 부수적인
+1|personality|성격, 개성
+2|appearance|모습, 외모, 출현
+1|certain|확실한, 틀림없는, 확신하는
+2|uncertain|확신이 없는, 불확실한
